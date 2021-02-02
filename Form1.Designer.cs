@@ -1,7 +1,7 @@
 ﻿
 namespace InterfaceCurriculo
 {
-    partial class Form1
+    partial class frmPrincipal
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -29,8 +29,13 @@ namespace InterfaceCurriculo
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPrincipal));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabInfoPessoais = new System.Windows.Forms.TabPage();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
@@ -56,10 +61,6 @@ namespace InterfaceCurriculo
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.tabExperienciaProfissional = new System.Windows.Forms.TabPage();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabInfoPessoais.SuspendLayout();
             this.tabEscolaridade.SuspendLayout();
@@ -111,6 +112,34 @@ namespace InterfaceCurriculo
             this.tabInfoPessoais.Size = new System.Drawing.Size(730, 378);
             this.tabInfoPessoais.TabIndex = 0;
             this.tabInfoPessoais.Text = "INFORMAÇÕES PESSOAIS";
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(232, 299);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(77, 25);
+            this.textBox12.TabIndex = 14;
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(232, 268);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(290, 25);
+            this.textBox11.TabIndex = 13;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(460, 237);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(192, 25);
+            this.textBox10.TabIndex = 12;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(232, 237);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(192, 25);
+            this.textBox9.TabIndex = 11;
             // 
             // textBox8
             // 
@@ -334,43 +363,16 @@ namespace InterfaceCurriculo
             this.tabExperienciaProfissional.TabIndex = 2;
             this.tabExperienciaProfissional.Text = "EXPERIÊNCIAS PROFISSIONAIS";
             // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(232, 237);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(192, 25);
-            this.textBox9.TabIndex = 11;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(460, 237);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(192, 25);
-            this.textBox10.TabIndex = 12;
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(232, 268);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(290, 25);
-            this.textBox11.TabIndex = 13;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(232, 299);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(77, 25);
-            this.textBox12.TabIndex = 14;
-            // 
-            // Form1
+            // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(763, 447);
             this.Controls.Add(this.tabControl1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "frmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gerador de Curriculo";
             this.tabControl1.ResumeLayout(false);
