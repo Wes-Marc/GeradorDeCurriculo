@@ -32,18 +32,18 @@ namespace InterfaceCurriculo
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGerador));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabInfoPessoais = new System.Windows.Forms.TabPage();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtCnh = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtTelefone2 = new System.Windows.Forms.TextBox();
+            this.txtTelefone1 = new System.Windows.Forms.TextBox();
+            this.txtCidade = new System.Windows.Forms.TextBox();
+            this.txtCep = new System.Windows.Forms.TextBox();
+            this.txtBairro = new System.Windows.Forms.TextBox();
+            this.txtNumero = new System.Windows.Forms.TextBox();
+            this.txtEndereco = new System.Windows.Forms.TextBox();
+            this.txtEstadoCivil = new System.Windows.Forms.TextBox();
+            this.txtDataNascimento = new System.Windows.Forms.TextBox();
+            this.txtNome = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -81,18 +81,18 @@ namespace InterfaceCurriculo
             // 
             this.tabInfoPessoais.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.tabInfoPessoais.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.tabInfoPessoais.Controls.Add(this.textBox12);
-            this.tabInfoPessoais.Controls.Add(this.textBox11);
-            this.tabInfoPessoais.Controls.Add(this.textBox10);
-            this.tabInfoPessoais.Controls.Add(this.textBox9);
-            this.tabInfoPessoais.Controls.Add(this.textBox8);
-            this.tabInfoPessoais.Controls.Add(this.textBox7);
-            this.tabInfoPessoais.Controls.Add(this.textBox6);
-            this.tabInfoPessoais.Controls.Add(this.textBox5);
-            this.tabInfoPessoais.Controls.Add(this.textBox4);
-            this.tabInfoPessoais.Controls.Add(this.textBox3);
-            this.tabInfoPessoais.Controls.Add(this.textBox2);
-            this.tabInfoPessoais.Controls.Add(this.textBox1);
+            this.tabInfoPessoais.Controls.Add(this.txtCnh);
+            this.tabInfoPessoais.Controls.Add(this.txtEmail);
+            this.tabInfoPessoais.Controls.Add(this.txtTelefone2);
+            this.tabInfoPessoais.Controls.Add(this.txtTelefone1);
+            this.tabInfoPessoais.Controls.Add(this.txtCidade);
+            this.tabInfoPessoais.Controls.Add(this.txtCep);
+            this.tabInfoPessoais.Controls.Add(this.txtBairro);
+            this.tabInfoPessoais.Controls.Add(this.txtNumero);
+            this.tabInfoPessoais.Controls.Add(this.txtEndereco);
+            this.tabInfoPessoais.Controls.Add(this.txtEstadoCivil);
+            this.tabInfoPessoais.Controls.Add(this.txtDataNascimento);
+            this.tabInfoPessoais.Controls.Add(this.txtNome);
             this.tabInfoPessoais.Controls.Add(this.label8);
             this.tabInfoPessoais.Controls.Add(this.label7);
             this.tabInfoPessoais.Controls.Add(this.label11);
@@ -113,89 +113,89 @@ namespace InterfaceCurriculo
             this.tabInfoPessoais.TabIndex = 0;
             this.tabInfoPessoais.Text = "INFORMAÇÕES PESSOAIS";
             // 
-            // textBox12
+            // txtCnh
             // 
-            this.textBox12.Location = new System.Drawing.Point(232, 299);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(77, 25);
-            this.textBox12.TabIndex = 14;
+            this.txtCnh.Location = new System.Drawing.Point(232, 299);
+            this.txtCnh.Name = "txtCnh";
+            this.txtCnh.Size = new System.Drawing.Size(77, 25);
+            this.txtCnh.TabIndex = 14;
             // 
-            // textBox11
+            // txtEmail
             // 
-            this.textBox11.Location = new System.Drawing.Point(232, 268);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(290, 25);
-            this.textBox11.TabIndex = 13;
+            this.txtEmail.Location = new System.Drawing.Point(232, 268);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(290, 25);
+            this.txtEmail.TabIndex = 13;
             // 
-            // textBox10
+            // txtTelefone2
             // 
-            this.textBox10.Location = new System.Drawing.Point(460, 237);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(192, 25);
-            this.textBox10.TabIndex = 12;
+            this.txtTelefone2.Location = new System.Drawing.Point(460, 237);
+            this.txtTelefone2.Name = "txtTelefone2";
+            this.txtTelefone2.Size = new System.Drawing.Size(192, 25);
+            this.txtTelefone2.TabIndex = 12;
             // 
-            // textBox9
+            // txtTelefone1
             // 
-            this.textBox9.Location = new System.Drawing.Point(232, 237);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(192, 25);
-            this.textBox9.TabIndex = 11;
+            this.txtTelefone1.Location = new System.Drawing.Point(232, 237);
+            this.txtTelefone1.Name = "txtTelefone1";
+            this.txtTelefone1.Size = new System.Drawing.Size(192, 25);
+            this.txtTelefone1.TabIndex = 11;
             // 
-            // textBox8
+            // txtCidade
             // 
-            this.textBox8.Location = new System.Drawing.Point(484, 206);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(168, 25);
-            this.textBox8.TabIndex = 10;
+            this.txtCidade.Location = new System.Drawing.Point(484, 206);
+            this.txtCidade.Name = "txtCidade";
+            this.txtCidade.Size = new System.Drawing.Size(168, 25);
+            this.txtCidade.TabIndex = 10;
             // 
-            // textBox7
+            // txtCep
             // 
-            this.textBox7.Location = new System.Drawing.Point(232, 206);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(136, 25);
-            this.textBox7.TabIndex = 9;
+            this.txtCep.Location = new System.Drawing.Point(232, 206);
+            this.txtCep.Name = "txtCep";
+            this.txtCep.Size = new System.Drawing.Size(136, 25);
+            this.txtCep.TabIndex = 9;
             // 
-            // textBox6
+            // txtBairro
             // 
-            this.textBox6.Location = new System.Drawing.Point(232, 175);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(192, 25);
-            this.textBox6.TabIndex = 8;
+            this.txtBairro.Location = new System.Drawing.Point(232, 175);
+            this.txtBairro.Name = "txtBairro";
+            this.txtBairro.Size = new System.Drawing.Size(192, 25);
+            this.txtBairro.TabIndex = 8;
             // 
-            // textBox5
+            // txtNumero
             // 
-            this.textBox5.Location = new System.Drawing.Point(575, 145);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(77, 25);
-            this.textBox5.TabIndex = 7;
+            this.txtNumero.Location = new System.Drawing.Point(575, 145);
+            this.txtNumero.Name = "txtNumero";
+            this.txtNumero.Size = new System.Drawing.Size(77, 25);
+            this.txtNumero.TabIndex = 7;
             // 
-            // textBox4
+            // txtEndereco
             // 
-            this.textBox4.Location = new System.Drawing.Point(232, 144);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(290, 25);
-            this.textBox4.TabIndex = 6;
+            this.txtEndereco.Location = new System.Drawing.Point(232, 144);
+            this.txtEndereco.Name = "txtEndereco";
+            this.txtEndereco.Size = new System.Drawing.Size(290, 25);
+            this.txtEndereco.TabIndex = 6;
             // 
-            // textBox3
+            // txtEstadoCivil
             // 
-            this.textBox3.Location = new System.Drawing.Point(232, 113);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(192, 25);
-            this.textBox3.TabIndex = 5;
+            this.txtEstadoCivil.Location = new System.Drawing.Point(232, 113);
+            this.txtEstadoCivil.Name = "txtEstadoCivil";
+            this.txtEstadoCivil.Size = new System.Drawing.Size(192, 25);
+            this.txtEstadoCivil.TabIndex = 5;
             // 
-            // textBox2
+            // txtDataNascimento
             // 
-            this.textBox2.Location = new System.Drawing.Point(232, 82);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(192, 25);
-            this.textBox2.TabIndex = 4;
+            this.txtDataNascimento.Location = new System.Drawing.Point(232, 82);
+            this.txtDataNascimento.Name = "txtDataNascimento";
+            this.txtDataNascimento.Size = new System.Drawing.Size(192, 25);
+            this.txtDataNascimento.TabIndex = 4;
             // 
-            // textBox1
+            // txtNome
             // 
-            this.textBox1.Location = new System.Drawing.Point(232, 51);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(420, 25);
-            this.textBox1.TabIndex = 3;
+            this.txtNome.Location = new System.Drawing.Point(232, 51);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(420, 25);
+            this.txtNome.TabIndex = 3;
             // 
             // label8
             // 
@@ -370,6 +370,7 @@ namespace InterfaceCurriculo
             this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(763, 447);
             this.Controls.Add(this.tabControl1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "frmGerador";
@@ -389,9 +390,9 @@ namespace InterfaceCurriculo
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabInfoPessoais;
         private System.Windows.Forms.TabPage tabEscolaridade;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtEstadoCivil;
+        private System.Windows.Forms.TextBox txtDataNascimento;
+        private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
@@ -399,11 +400,11 @@ namespace InterfaceCurriculo
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtCidade;
+        private System.Windows.Forms.TextBox txtCep;
+        private System.Windows.Forms.TextBox txtBairro;
+        private System.Windows.Forms.TextBox txtNumero;
+        private System.Windows.Forms.TextBox txtEndereco;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label11;
@@ -413,10 +414,10 @@ namespace InterfaceCurriculo
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TabPage tabExperienciaProfissional;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtCnh;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.TextBox txtTelefone2;
+        private System.Windows.Forms.TextBox txtTelefone1;
     }
 }
 
