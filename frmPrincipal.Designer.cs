@@ -1,7 +1,7 @@
 ﻿
 namespace InterfaceCurriculo
 {
-    partial class frmPrincipal
+    partial class frmGerador
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -29,7 +29,7 @@ namespace InterfaceCurriculo
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPrincipal));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGerador));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabInfoPessoais = new System.Windows.Forms.TabPage();
             this.textBox12 = new System.Windows.Forms.TextBox();
@@ -363,7 +363,7 @@ namespace InterfaceCurriculo
             this.tabExperienciaProfissional.TabIndex = 2;
             this.tabExperienciaProfissional.Text = "EXPERIÊNCIAS PROFISSIONAIS";
             // 
-            // frmPrincipal
+            // frmGerador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -372,7 +372,7 @@ namespace InterfaceCurriculo
             this.Controls.Add(this.tabControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.Name = "frmPrincipal";
+            this.Name = "frmGerador";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gerador de Curriculo";
             this.tabControl1.ResumeLayout(false);
