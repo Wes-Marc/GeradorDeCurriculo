@@ -1,4 +1,4 @@
-# App GeradorDeCurriculo (C# em .net core)
+# App GeradorDeCurriculo (C# em .NET Framework)
 
 ### Backstory
 
@@ -12,7 +12,7 @@ preencher e percorrer os campos com uso da tecla TAB, e salvar na pasta do atend
 
 ### Sobre a aplicação
 
-A aplicação está sendo construida com C# em .net core de forma bem simples, usando Aspose.word que é uma API para processamento
+A aplicação está sendo construida com C# em .NET Framework de forma bem simples, usando Aspose.word que é uma API para processamento
 de documentos Word.
 A aplicação abre um documento modelo criado em word com campos do tipo MERGEFIELD, e através de métodos da API faz a troca 
 desses campos pelos dados dos formulários da aplicação e por fim executa um trim nos campos que tenham ficado vazios.
