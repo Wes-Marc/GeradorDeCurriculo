@@ -1,6 +1,6 @@
-App# GeradorDeCurriculo (C# em .net core)
+# App GeradorDeCurriculo (C# em .net core)
 
-#Backstory
+### Backstory
 
 No momento eu trabalho como instrutor de informática em uma escola de cursos livres chamada Micro Center em Porto Ferreira-SP,
 e nessa escola também oferece-se serviços de foto cópia e digitações diversas, incluindo digitação de currículos. Apesar desse
@@ -10,7 +10,7 @@ E visando a facilitação dessa tarefa para que não atrapalhe o meu trabalho de
 que proporciona uma interface gráfica para o preenchimento de curriculos no modelo padrão da escola. Dessa forma eu consigo
 preencher e percorrer os campos com uso da tecla TAB, e salvar na pasta do atendente que pediu ajuda, direto pela aplicação.
 
-#Sobre a aplicação
+### Sobre a aplicação
 
 A aplicação está sendo construida com C# em .net core de forma bem simples, usando Aspose.word que é uma API para processamento
 de documentos Word.
